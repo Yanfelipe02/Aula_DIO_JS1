@@ -1,4 +1,4 @@
-var nome = "Yan Felipe"
+/*var nome = "Yan Felipe"
 var lista_de_frutas = [" Maçã", " Manga", " Banana"];
 
 //Dicionario
@@ -41,3 +41,52 @@ console.log("A fruta é uma " + fruta.nome + " e é da cor " + fruta.cor);
 //Imprime a lista de dicionarios
 console.log(frutas);
 console.log(frutas[2]);
+*/
+
+/*function soma (n1, n2){
+    return n1 + n2;
+}
+
+alert(soma(5 , 10));*/
+
+/*Função que troca os parâmentros
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome);
+}
+
+alert(setReplace("Vai Japão", "Japão", "Brasil!"));
+
+function validarIdade(idade){
+    var validar;
+
+    if(idade >=18){
+        validar = "Acesso permitido"
+    }
+    else{
+        validar = "Acesso negado!"
+    }
+
+    return validar;
+}
+
+var idade = prompt("Digite sua idade")
+alert(validarIdade(idade));*/
+
+function clicar(){
+    document.getElementById("vlw").innerHTML = "Valeu pelo Clique!!!";
+    //alert("Clicou ~.~");
+}
+
+function redirecionar(){
+    window.open("https://www.linkedin.com/in/yan-f-almeida/");
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "UUUUUIIIII!!!!!!";
+    //document.getElementById("mousemove").innerHTML = "UUUUUIIIII!!!!!!";
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui!";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui!"
+}
